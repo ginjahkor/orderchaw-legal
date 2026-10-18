@@ -16,10 +16,10 @@ Google Play requires the privacy policy to be at a **publicly accessible URL** t
 
 ## Hosting
 
-Static HTML. No build step, no dependencies. Deployable via GitHub Pages or Vercel.
+Static HTML. No build step, no dependencies. Hosted on Vercel.
 
-- **GitHub Pages:** Settings → Pages → Source `main` / root. Hosted on Vercel (project orderchaw-legal, direct upload). DNS: A records to Vercel. Do not add a CNAME file; GitHub Pages is not the host.
-- **Vercel:** import this repo, framework preset "Other", no build command, output directory `.`
+- **Hosting:** Vercel (project `orderchaw-legal`, direct upload, not git-linked). DNS: A records to Vercel. Do not add a CNAME file; GitHub Pages is disabled on this repo and is not the host.
+- **Deploying:** Quomy uploads the repo tree to the Vercel project via the API after each merge to `main`.
 
 ## Editing
 
